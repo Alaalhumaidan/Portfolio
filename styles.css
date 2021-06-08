@@ -1,0 +1,33 @@
+
+h1{
+    color: rgb(219, 201, 201); text-align: center; font-family:initial; font-style: italic;
+    /* border: 15px solid #fec5bb; padding: 20px; */
+}
+h2{
+    color:rgb(255, 255, 255); font-family: initial; font-style: italic;text-align: center;
+}
+p{
+    color:#221713; font-style: italic;text-align: center;
+}
+ul,ol{
+    color:rgb(121, 106, 99); font-family:initial;
+}
+li{
+    margin: 10px;
+}
+body{
+    background-color: #e9bcb7;
+    background-image: linear-gradient(315deg, #e9bcb7 20%, #583938 50%);
+}
+img{
+    border: 5px solid rgb(218, 188, 154);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.cards-cover{
+    display: grid;
+    grid-template-columns: repeat(4,320px);
+}
